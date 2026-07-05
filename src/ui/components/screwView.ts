@@ -6,12 +6,14 @@ export interface ScrewViewOptions {
   index: number;
   selected: boolean;
   colorblindMode: boolean;
+  /** How many of this screw's topmost nuts just arrived from a move, for the drop-in animation. */
+  arrivedCount?: number;
   onTap: (index: number) => void;
 }
 
 /** Renders one screw (rod + stacked nut chips) as a DOM element. */
 export function renderScrew(options: ScrewViewOptions): HTMLElement {
-  const { screw, index, selected, colorblindMode } = options;
+  const { screw, index, selected, colorblindMode, arrivedCount = 0 } = options;
 
   const el = document.createElement('button');
   el.type = 'button';
@@ -28,17 +30,23 @@ export function renderScrew(options: ScrewViewOptions): HTMLElement {
   slots.className = 'screw-slots';
   slots.style.minHeight = `${screw.capacity * 26}px`;
 
-  for (const nut of screw.nuts) {
+  const nuts = screw.nuts;
+  nuts.forEach((nut, nutIndex) => {
     const style = styleFor(nut.color);
     const nutEl = document.createElement('div');
-    nutEl.className = 'nut';
+    // The topmost `arrivedCount` nuts (end of the bottom-to-top array) just
+    // transferred in from another screw — give them the drop-in animation.
+    const arrivalOffset = nutIndex - (nuts.length - arrivedCount);
+    const isArrival = arrivedCount > 0 && arrivalOffset >= 0;
+    nutEl.className = 'nut' + (isArrival ? ' moving-in' : '');
     nutEl.style.background = style.hex;
+    if (isArrival) nutEl.style.animationDelay = `${arrivalOffset * 60}ms`;
     const glyph = document.createElement('span');
     glyph.className = 'glyph';
     glyph.textContent = style.glyph;
     nutEl.appendChild(glyph);
     slots.appendChild(nutEl);
-  }
+  });
 
   el.appendChild(slots);
 

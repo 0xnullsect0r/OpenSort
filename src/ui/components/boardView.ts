@@ -10,6 +10,11 @@ export interface BoardViewOptions {
   onWin: () => void;
 }
 
+interface Arrival {
+  screwIndex: number;
+  count: number;
+}
+
 /** Drives the tap-source-then-tap-destination interaction and re-renders the board on change. */
 export class BoardView {
   private selected: number | null = null;
@@ -38,13 +43,14 @@ export class BoardView {
     this.selected = null;
     const result = controller.attemptMove(from, index);
     onMove(result);
-    this.render(); // clears the stale "selected" state regardless of legality
 
     if (!result.legal) {
+      this.render(); // clears the stale "selected" state
       this.flashInvalid();
       return;
     }
 
+    this.render({ screwIndex: index, count: result.nutsMoved });
     if (controller.isWon) onWin();
   }
 
@@ -61,7 +67,7 @@ export class BoardView {
     this.render();
   }
 
-  render(): void {
+  render(arrival?: Arrival): void {
     const { container, controller, colorblindMode } = this.options;
     container.innerHTML = '';
 
@@ -75,6 +81,7 @@ export class BoardView {
         index,
         selected: this.selected === index,
         colorblindMode,
+        arrivedCount: arrival?.screwIndex === index ? arrival.count : 0,
         onTap: (i) => this.handleTap(i),
       });
       board.appendChild(screwEl);

@@ -5,6 +5,8 @@ import { renderStars } from '../components/starRating';
 import { solveInWorker } from '../../services/hintService';
 import { settingsService } from '../../services/settingsService';
 import { ProgressService } from '../../services/progressService';
+import { audioService } from '../../services/audioService';
+import { hapticsService } from '../../services/hapticsService';
 
 export interface GameSessionOptions {
   container: HTMLElement;
@@ -56,16 +58,24 @@ export function mountGameSession(options: GameSessionOptions): void {
     container: boardContainer,
     controller,
     colorblindMode: settingsService.get().colorblindPatternsAlwaysOn,
-    onMove: () => {
+    onMove: (result) => {
       movesEl.textContent = `Moves: ${controller.movesMade}`;
       undoButton.disabled = !controller.canUndo;
       statusEl.textContent = '';
+      if (result.legal) {
+        audioService.move();
+      } else {
+        audioService.invalidMove();
+        hapticsService.invalidMove();
+      }
     },
     onWin: () => {
       if (completed) return;
       completed = true;
       const stars = ProgressService.starsFor(controller.movesMade, optimalMoves);
       onComplete(controller.movesMade, stars);
+      audioService.win();
+      hapticsService.win();
       showWinOverlay(stars);
     },
   });
