@@ -1,0 +1,4936 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "screwCapacity": 4,
+      "screws": [
+        [
+          "red",
+          "red",
+          "orange"
+        ],
+        [
+          "orange"
+        ],
+        [],
+        [
+          "red",
+          "yellow",
+          "red",
+          "orange"
+        ],
+        [
+          "orange",
+          "yellow",
+          "yellow",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 7,
+      "seed": 20261716
+    },
+    {
+      "id": 2,
+      "screwCapacity": 4,
+      "screws": [
+        [
+          "orange",
+          "yellow"
+        ],
+        [
+          "orange",
+          "orange",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "red",
+          "yellow"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "orange"
+        ],
+        []
+      ],
+      "optimalMoves": 6,
+      "seed": 20262706
+    },
+    {
+      "id": 3,
+      "screwCapacity": 4,
+      "screws": [
+        [],
+        [
+          "orange",
+          "red",
+          "orange"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "red"
+        ],
+        [
+          "red",
+          "yellow",
+          "red"
+        ],
+        [
+          "orange",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 6,
+      "seed": 20263708
+    },
+    {
+      "id": 4,
+      "screwCapacity": 4,
+      "screws": [
+        [
+          "yellow",
+          "yellow"
+        ],
+        [
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "orange",
+          "yellow",
+          "orange"
+        ],
+        [
+          "yellow"
+        ],
+        [
+          "orange",
+          "red",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 6,
+      "seed": 20264708
+    },
+    {
+      "id": 5,
+      "screwCapacity": 4,
+      "screws": [
+        [
+          "yellow",
+          "orange",
+          "orange",
+          "orange"
+        ],
+        [
+          "red",
+          "orange"
+        ],
+        [],
+        [
+          "yellow",
+          "red",
+          "red",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "red"
+        ]
+      ],
+      "optimalMoves": 7,
+      "seed": 20265706
+    },
+    {
+      "id": 6,
+      "screwCapacity": 4,
+      "screws": [
+        [
+          "red"
+        ],
+        [
+          "yellow",
+          "orange",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "orange"
+        ],
+        [
+          "orange",
+          "orange",
+          "red"
+        ],
+        [
+          "red",
+          "red"
+        ]
+      ],
+      "optimalMoves": 6,
+      "seed": 20266709
+    },
+    {
+      "id": 7,
+      "screwCapacity": 4,
+      "screws": [
+        [],
+        [
+          "yellow",
+          "yellow",
+          "red"
+        ],
+        [
+          "orange",
+          "orange",
+          "yellow"
+        ],
+        [
+          "orange",
+          "red",
+          "red",
+          "yellow"
+        ],
+        [
+          "red",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 6,
+      "seed": 20267707
+    },
+    {
+      "id": 8,
+      "screwCapacity": 4,
+      "screws": [
+        [
+          "red",
+          "orange",
+          "red"
+        ],
+        [
+          "orange",
+          "yellow"
+        ],
+        [
+          "red",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "red"
+        ],
+        [
+          "orange",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 7,
+      "seed": 20268705
+    },
+    {
+      "id": 9,
+      "screwCapacity": 4,
+      "screws": [
+        [
+          "red",
+          "yellow",
+          "red"
+        ],
+        [
+          "yellow"
+        ],
+        [
+          "yellow",
+          "red",
+          "yellow",
+          "red"
+        ],
+        [],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 6,
+      "seed": 20269706
+    },
+    {
+      "id": 10,
+      "screwCapacity": 4,
+      "screws": [
+        [
+          "red",
+          "green",
+          "green"
+        ],
+        [
+          "orange"
+        ],
+        [
+          "yellow",
+          "red",
+          "red",
+          "green"
+        ],
+        [
+          "green"
+        ],
+        [
+          "orange",
+          "orange",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "orange",
+          "red"
+        ]
+      ],
+      "optimalMoves": 8,
+      "seed": 20270705
+    },
+    {
+      "id": 11,
+      "screwCapacity": 4,
+      "screws": [
+        [],
+        [
+          "orange",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "orange"
+        ],
+        [
+          "green",
+          "red",
+          "green",
+          "yellow"
+        ],
+        [
+          "orange",
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "green",
+          "green",
+          "orange",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 10,
+      "seed": 20271706
+    },
+    {
+      "id": 12,
+      "screwCapacity": 4,
+      "screws": [
+        [
+          "yellow",
+          "yellow",
+          "green"
+        ],
+        [
+          "yellow",
+          "orange",
+          "orange",
+          "yellow"
+        ],
+        [
+          "green"
+        ],
+        [
+          "red",
+          "orange",
+          "orange"
+        ],
+        [
+          "green",
+          "green"
+        ],
+        [
+          "red",
+          "red",
+          "red"
+        ]
+      ],
+      "optimalMoves": 7,
+      "seed": 20272705
+    },
+    {
+      "id": 13,
+      "screwCapacity": 4,
+      "screws": [
+        [
+          "green",
+          "green",
+          "red"
+        ],
+        [
+          "red"
+        ],
+        [
+          "yellow",
+          "orange",
+          "orange",
+          "orange"
+        ],
+        [
+          "green",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "red",
+          "red"
+        ],
+        [
+          "orange",
+          "yellow",
+          "green"
+        ]
+      ],
+      "optimalMoves": 7,
+      "seed": 20273705
+    },
+    {
+      "id": 14,
+      "screwCapacity": 4,
+      "screws": [
+        [
+          "yellow",
+          "red"
+        ],
+        [
+          "orange",
+          "red",
+          "red",
+          "orange"
+        ],
+        [
+          "orange",
+          "orange"
+        ],
+        [
+          "yellow"
+        ],
+        [
+          "yellow",
+          "green",
+          "green",
+          "green"
+        ],
+        [
+          "green",
+          "red",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 9,
+      "seed": 20274706
+    },
+    {
+      "id": 15,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "yellow"
+        ],
+        [
+          "orange",
+          "orange"
+        ],
+        [
+          "green",
+          "green",
+          "yellow",
+          "yellow",
+          "orange"
+        ],
+        [
+          "green",
+          "green",
+          "red",
+          "green",
+          "red"
+        ],
+        [
+          "yellow",
+          "red",
+          "orange",
+          "orange",
+          "red"
+        ],
+        [
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 11,
+      "seed": 20275705
+    },
+    {
+      "id": 16,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "orange"
+        ],
+        [
+          "orange",
+          "orange",
+          "green"
+        ],
+        [
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "red",
+          "orange",
+          "orange",
+          "green",
+          "green"
+        ],
+        [
+          "red",
+          "green",
+          "green",
+          "yellow",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 8,
+      "seed": 20276705
+    },
+    {
+      "id": 17,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "green"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "green"
+        ],
+        [
+          "red",
+          "red",
+          "red"
+        ],
+        [],
+        [
+          "yellow",
+          "orange",
+          "orange",
+          "green",
+          "green"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "green"
+        ]
+      ],
+      "optimalMoves": 7,
+      "seed": 20277705
+    },
+    {
+      "id": 18,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "green",
+          "red",
+          "red"
+        ],
+        [
+          "orange",
+          "green",
+          "green",
+          "red"
+        ],
+        [
+          "yellow",
+          "orange",
+          "orange",
+          "green"
+        ],
+        [
+          "green",
+          "red"
+        ],
+        [
+          "yellow",
+          "red"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "orange",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 11,
+      "seed": 20278705
+    },
+    {
+      "id": 19,
+      "screwCapacity": 5,
+      "screws": [
+        [],
+        [
+          "yellow",
+          "green",
+          "green"
+        ],
+        [
+          "orange",
+          "red",
+          "yellow",
+          "orange",
+          "orange"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "orange",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "yellow"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "red",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 9,
+      "seed": 20279705
+    },
+    {
+      "id": 20,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "orange",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "orange",
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "orange",
+          "blue",
+          "blue"
+        ],
+        [
+          "green"
+        ],
+        [
+          "blue",
+          "green",
+          "green",
+          "red"
+        ],
+        [
+          "green",
+          "green",
+          "orange"
+        ],
+        [
+          "red",
+          "red",
+          "blue",
+          "blue",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 12,
+      "seed": 20280705
+    },
+    {
+      "id": 21,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "blue",
+          "red",
+          "red",
+          "orange",
+          "yellow"
+        ],
+        [
+          "orange",
+          "orange"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "blue",
+          "blue"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "green",
+          "green"
+        ],
+        [
+          "red",
+          "red",
+          "yellow"
+        ],
+        [
+          "red",
+          "blue",
+          "blue",
+          "orange",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 8,
+      "seed": 20281705
+    },
+    {
+      "id": 22,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "green",
+          "green",
+          "green"
+        ],
+        [
+          "orange",
+          "red",
+          "orange"
+        ],
+        [
+          "green",
+          "green",
+          "red",
+          "blue"
+        ],
+        [
+          "blue",
+          "red",
+          "blue",
+          "blue"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "red",
+          "red"
+        ]
+      ],
+      "optimalMoves": 10,
+      "seed": 20282705
+    },
+    {
+      "id": 23,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "yellow",
+          "red",
+          "red",
+          "orange"
+        ],
+        [
+          "red"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "blue"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "red",
+          "yellow"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "green",
+          "blue"
+        ],
+        [
+          "orange",
+          "green"
+        ]
+      ],
+      "optimalMoves": 12,
+      "seed": 20283705
+    },
+    {
+      "id": 24,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "green",
+          "green",
+          "green"
+        ],
+        [
+          "orange",
+          "orange"
+        ],
+        [
+          "yellow",
+          "red",
+          "blue",
+          "red"
+        ],
+        [
+          "green",
+          "green",
+          "orange",
+          "orange"
+        ],
+        [
+          "red",
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "blue",
+          "orange"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "red"
+        ]
+      ],
+      "optimalMoves": 11,
+      "seed": 20284705
+    },
+    {
+      "id": 25,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "blue"
+        ],
+        [
+          "yellow",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "green",
+          "orange",
+          "green"
+        ],
+        [
+          "green",
+          "orange",
+          "green",
+          "orange",
+          "green"
+        ],
+        [
+          "blue",
+          "red",
+          "red",
+          "yellow"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "red",
+          "red"
+        ],
+        [
+          "orange",
+          "orange",
+          "red"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20285705
+    },
+    {
+      "id": 26,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "blue",
+          "orange"
+        ],
+        [
+          "red",
+          "green",
+          "green",
+          "blue",
+          "green"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "blue",
+          "orange",
+          "green"
+        ],
+        [
+          "blue",
+          "blue",
+          "green"
+        ],
+        [
+          "red",
+          "red",
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        [],
+        [
+          "orange",
+          "orange",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 12,
+      "seed": 20286705
+    },
+    {
+      "id": 27,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "blue",
+          "blue",
+          "yellow"
+        ],
+        [
+          "orange",
+          "orange",
+          "green",
+          "orange",
+          "orange"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "orange",
+          "blue",
+          "blue"
+        ],
+        [],
+        [
+          "yellow",
+          "yellow",
+          "green",
+          "green",
+          "green"
+        ],
+        [
+          "blue",
+          "green",
+          "red",
+          "yellow",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 10,
+      "seed": 20287705
+    },
+    {
+      "id": 28,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "yellow",
+          "yellow",
+          "red",
+          "orange"
+        ],
+        [
+          "red",
+          "red",
+          "yellow",
+          "orange",
+          "orange"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "orange",
+          "red",
+          "orange"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "blue"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "green",
+          "green"
+        ]
+      ],
+      "optimalMoves": 10,
+      "seed": 20288705
+    },
+    {
+      "id": 29,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "blue",
+          "blue",
+          "yellow",
+          "yellow",
+          "green"
+        ],
+        [
+          "orange"
+        ],
+        [
+          "yellow",
+          "yellow"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "red"
+        ],
+        [
+          "blue",
+          "green",
+          "blue",
+          "green"
+        ],
+        [
+          "green",
+          "blue",
+          "red",
+          "orange"
+        ],
+        [
+          "yellow",
+          "green",
+          "red",
+          "red",
+          "red"
+        ]
+      ],
+      "optimalMoves": 14,
+      "seed": 20289705
+    },
+    {
+      "id": 30,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "purple",
+          "blue",
+          "orange",
+          "green"
+        ],
+        [],
+        [
+          "orange",
+          "orange",
+          "purple",
+          "red",
+          "purple"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "blue"
+        ],
+        [
+          "yellow",
+          "orange",
+          "red",
+          "orange"
+        ],
+        [
+          "purple",
+          "purple",
+          "green"
+        ],
+        [
+          "green",
+          "green",
+          "yellow",
+          "blue",
+          "blue"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "blue",
+          "green"
+        ]
+      ],
+      "optimalMoves": 17,
+      "seed": 20290705
+    },
+    {
+      "id": 31,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "green",
+          "orange",
+          "purple"
+        ],
+        [],
+        [
+          "yellow",
+          "green",
+          "green",
+          "orange"
+        ],
+        [
+          "green",
+          "yellow",
+          "blue",
+          "purple",
+          "green"
+        ],
+        [
+          "blue",
+          "blue",
+          "red",
+          "red",
+          "orange"
+        ],
+        [
+          "orange",
+          "orange"
+        ],
+        [
+          "purple",
+          "purple",
+          "yellow",
+          "blue",
+          "blue"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "red",
+          "purple"
+        ]
+      ],
+      "optimalMoves": 17,
+      "seed": 20291705
+    },
+    {
+      "id": 32,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "purple",
+          "purple",
+          "yellow",
+          "orange"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "red",
+          "red"
+        ],
+        [
+          "purple",
+          "purple",
+          "purple",
+          "orange",
+          "green"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [],
+        [
+          "green",
+          "red",
+          "green",
+          "green",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "green"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 12,
+      "seed": 20292705
+    },
+    {
+      "id": 33,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "orange",
+          "purple",
+          "red"
+        ],
+        [],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "green"
+        ],
+        [
+          "green",
+          "blue"
+        ],
+        [
+          "blue",
+          "blue",
+          "orange",
+          "orange"
+        ],
+        [
+          "purple",
+          "blue",
+          "blue",
+          "red",
+          "orange"
+        ],
+        [
+          "red",
+          "red",
+          "purple",
+          "green",
+          "green"
+        ],
+        [
+          "purple",
+          "purple",
+          "yellow",
+          "green",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 16,
+      "seed": 20293705
+    },
+    {
+      "id": 34,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red"
+        ],
+        [
+          "orange",
+          "orange",
+          "blue",
+          "blue",
+          "purple"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "green",
+          "green",
+          "green"
+        ],
+        [
+          "green",
+          "blue",
+          "yellow",
+          "purple",
+          "purple"
+        ],
+        [
+          "purple",
+          "purple",
+          "orange",
+          "green",
+          "orange"
+        ],
+        [
+          "yellow",
+          "orange"
+        ],
+        [
+          "blue",
+          "blue",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 13,
+      "seed": 20294705
+    },
+    {
+      "id": 35,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "orange",
+          "orange",
+          "red"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "red",
+          "blue"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "red"
+        ],
+        [
+          "green",
+          "blue",
+          "green",
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "green"
+        ],
+        [
+          "blue",
+          "yellow",
+          "purple",
+          "purple",
+          "yellow"
+        ],
+        [
+          "green"
+        ],
+        [
+          "purple",
+          "purple",
+          "purple",
+          "yellow",
+          "blue"
+        ]
+      ],
+      "optimalMoves": 17,
+      "seed": 20295707
+    },
+    {
+      "id": 36,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "blue"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "green",
+          "green",
+          "red",
+          "blue"
+        ],
+        [
+          "orange",
+          "green",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "green",
+          "purple",
+          "purple",
+          "red",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "orange",
+          "purple",
+          "purple"
+        ],
+        [
+          "green",
+          "purple",
+          "orange",
+          "red",
+          "red"
+        ]
+      ],
+      "optimalMoves": 16,
+      "seed": 20296705
+    },
+    {
+      "id": 37,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "orange",
+          "orange",
+          "blue"
+        ],
+        [],
+        [
+          "green",
+          "yellow",
+          "green",
+          "orange",
+          "orange"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "yellow"
+        ],
+        [
+          "purple",
+          "purple",
+          "green",
+          "green",
+          "green"
+        ],
+        [
+          "blue",
+          "red",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "purple",
+          "purple",
+          "purple",
+          "orange",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 13,
+      "seed": 20297705
+    },
+    {
+      "id": 38,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "red",
+          "purple"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "red",
+          "red",
+          "purple"
+        ],
+        [],
+        [
+          "blue",
+          "yellow",
+          "orange",
+          "orange"
+        ],
+        [
+          "orange"
+        ],
+        [
+          "purple",
+          "green",
+          "green",
+          "purple",
+          "purple"
+        ]
+      ],
+      "optimalMoves": 13,
+      "seed": 20298705
+    },
+    {
+      "id": 39,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "red",
+          "purple"
+        ],
+        [
+          "orange",
+          "purple",
+          "purple",
+          "yellow",
+          "red"
+        ],
+        [
+          "orange",
+          "orange",
+          "yellow",
+          "orange"
+        ],
+        [
+          "green",
+          "yellow",
+          "green"
+        ],
+        [
+          "blue",
+          "blue",
+          "orange",
+          "yellow",
+          "yellow"
+        ],
+        [],
+        [
+          "red",
+          "blue",
+          "blue",
+          "blue",
+          "purple"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "purple"
+        ]
+      ],
+      "optimalMoves": 16,
+      "seed": 20299705
+    },
+    {
+      "id": 40,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "orange",
+          "red",
+          "blue",
+          "purple"
+        ],
+        [
+          "yellow",
+          "purple",
+          "orange"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "blue"
+        ],
+        [
+          "green",
+          "blue"
+        ],
+        [
+          "blue",
+          "blue",
+          "orange",
+          "red"
+        ],
+        [
+          "purple",
+          "red",
+          "purple",
+          "purple",
+          "red"
+        ],
+        [
+          "orange",
+          "orange"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "green"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20300705
+    },
+    {
+      "id": 41,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "yellow",
+          "purple",
+          "blue"
+        ],
+        [
+          "orange",
+          "green",
+          "green",
+          "green",
+          "blue"
+        ],
+        [
+          "yellow",
+          "red",
+          "green",
+          "purple"
+        ],
+        [
+          "orange",
+          "green"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "purple",
+          "purple"
+        ],
+        [
+          "purple",
+          "red",
+          "red"
+        ],
+        [
+          "red",
+          "yellow",
+          "yellow",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20301705
+    },
+    {
+      "id": 42,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "green",
+          "red"
+        ],
+        [
+          "orange",
+          "yellow",
+          "purple",
+          "purple",
+          "purple"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "green",
+          "red",
+          "orange"
+        ],
+        [
+          "green",
+          "orange",
+          "orange"
+        ],
+        [
+          "red",
+          "blue",
+          "blue",
+          "blue",
+          "red"
+        ],
+        [
+          "purple",
+          "purple",
+          "green",
+          "green"
+        ],
+        [],
+        [
+          "yellow",
+          "yellow",
+          "orange",
+          "blue",
+          "blue"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20302705
+    },
+    {
+      "id": 43,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "yellow",
+          "yellow",
+          "orange",
+          "green",
+          "blue"
+        ],
+        [
+          "red",
+          "blue"
+        ],
+        [
+          "yellow",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "green"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "yellow"
+        ],
+        [
+          "purple",
+          "purple",
+          "purple"
+        ],
+        [
+          "purple",
+          "purple",
+          "red"
+        ],
+        [
+          "orange",
+          "yellow",
+          "red",
+          "red",
+          "red"
+        ]
+      ],
+      "optimalMoves": 12,
+      "seed": 20303705
+    },
+    {
+      "id": 44,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "blue",
+          "blue",
+          "orange"
+        ],
+        [
+          "red",
+          "purple",
+          "orange"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "green",
+          "green",
+          "blue",
+          "blue",
+          "yellow"
+        ],
+        [
+          "purple",
+          "purple",
+          "yellow",
+          "red",
+          "blue"
+        ],
+        [
+          "purple",
+          "red",
+          "purple"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "orange",
+          "orange"
+        ],
+        [
+          "orange"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20304705
+    },
+    {
+      "id": 45,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "green",
+          "orange"
+        ],
+        [
+          "red",
+          "blue",
+          "blue",
+          "blue",
+          "green"
+        ],
+        [
+          "yellow",
+          "purple",
+          "orange"
+        ],
+        [
+          "purple",
+          "purple"
+        ],
+        [
+          "blue"
+        ],
+        [
+          "yellow",
+          "orange",
+          "yellow",
+          "green",
+          "green"
+        ],
+        [
+          "purple",
+          "purple",
+          "red",
+          "red",
+          "orange"
+        ],
+        [
+          "green",
+          "blue",
+          "yellow",
+          "orange",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 18,
+      "seed": 20305706
+    },
+    {
+      "id": 46,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "green",
+          "green",
+          "green",
+          "red",
+          "yellow"
+        ],
+        [
+          "orange",
+          "yellow",
+          "yellow",
+          "yellow",
+          "blue"
+        ],
+        [
+          "purple",
+          "red",
+          "purple",
+          "red",
+          "orange"
+        ],
+        [],
+        [
+          "blue",
+          "purple",
+          "orange",
+          "blue",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "red",
+          "green"
+        ],
+        [
+          "orange",
+          "orange",
+          "yellow"
+        ],
+        [
+          "green",
+          "purple",
+          "purple"
+        ]
+      ],
+      "optimalMoves": 19,
+      "seed": 20306705
+    },
+    {
+      "id": 47,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "orange",
+          "yellow",
+          "yellow",
+          "red"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "red"
+        ],
+        [
+          "purple",
+          "purple",
+          "red"
+        ],
+        [
+          "green",
+          "yellow"
+        ],
+        [
+          "blue",
+          "blue",
+          "purple",
+          "purple",
+          "purple"
+        ],
+        [
+          "orange",
+          "yellow"
+        ],
+        [
+          "green",
+          "yellow",
+          "blue",
+          "blue"
+        ],
+        [
+          "blue",
+          "green",
+          "green",
+          "green",
+          "red"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20307705
+    },
+    {
+      "id": 48,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "yellow",
+          "purple"
+        ],
+        [
+          "green",
+          "red",
+          "blue",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "blue",
+          "purple"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "purple"
+        ],
+        [
+          "green",
+          "purple",
+          "blue",
+          "yellow",
+          "red"
+        ],
+        [
+          "purple",
+          "orange",
+          "orange",
+          "orange"
+        ],
+        [
+          "red",
+          "red",
+          "yellow",
+          "orange",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 17,
+      "seed": 20308705
+    },
+    {
+      "id": 49,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red"
+        ],
+        [
+          "orange",
+          "orange",
+          "purple"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "green",
+          "green",
+          "purple"
+        ],
+        [
+          "green",
+          "purple",
+          "red",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "orange",
+          "blue",
+          "orange",
+          "green"
+        ],
+        [
+          "blue",
+          "yellow",
+          "yellow",
+          "green",
+          "yellow"
+        ],
+        [
+          "orange",
+          "purple",
+          "purple",
+          "red"
+        ]
+      ],
+      "optimalMoves": 16,
+      "seed": 20309705
+    },
+    {
+      "id": 50,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "blue",
+          "blue",
+          "purple",
+          "purple"
+        ],
+        [
+          "orange",
+          "orange",
+          "green"
+        ],
+        [
+          "yellow",
+          "green",
+          "purple",
+          "green",
+          "red"
+        ],
+        [
+          "orange",
+          "orange"
+        ],
+        [
+          "yellow",
+          "blue",
+          "blue"
+        ],
+        [
+          "purple",
+          "green",
+          "green",
+          "purple",
+          "red"
+        ],
+        [
+          "red",
+          "blue",
+          "orange"
+        ],
+        [
+          "red",
+          "yellow",
+          "yellow",
+          "yellow",
+          "red"
+        ]
+      ],
+      "optimalMoves": 17,
+      "seed": 20310705
+    },
+    {
+      "id": 51,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "yellow",
+          "blue",
+          "blue",
+          "orange"
+        ],
+        [
+          "orange",
+          "orange",
+          "green",
+          "purple"
+        ],
+        [
+          "yellow",
+          "red",
+          "red",
+          "red",
+          "purple"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "purple"
+        ],
+        [
+          "green",
+          "blue"
+        ],
+        [
+          "purple",
+          "purple",
+          "blue",
+          "blue",
+          "orange"
+        ],
+        [
+          "orange"
+        ],
+        [
+          "red",
+          "green",
+          "red",
+          "green",
+          "green"
+        ]
+      ],
+      "optimalMoves": 16,
+      "seed": 20311705
+    },
+    {
+      "id": 52,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "orange",
+          "green"
+        ],
+        [
+          "red",
+          "red",
+          "purple",
+          "green",
+          "green"
+        ],
+        [
+          "purple",
+          "purple",
+          "purple"
+        ],
+        [
+          "green",
+          "orange",
+          "orange",
+          "blue"
+        ],
+        [
+          "yellow",
+          "blue",
+          "yellow",
+          "green"
+        ],
+        [
+          "purple",
+          "yellow",
+          "yellow",
+          "blue",
+          "yellow"
+        ],
+        [
+          "blue",
+          "blue",
+          "orange",
+          "orange"
+        ],
+        [
+          "red",
+          "red",
+          "red"
+        ]
+      ],
+      "optimalMoves": 14,
+      "seed": 20312706
+    },
+    {
+      "id": 53,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "purple",
+          "orange"
+        ],
+        [
+          "orange",
+          "orange",
+          "blue",
+          "orange",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "purple",
+          "purple",
+          "purple",
+          "yellow"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "red",
+          "blue"
+        ],
+        [
+          "blue"
+        ],
+        [
+          "purple",
+          "orange",
+          "green",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "yellow",
+          "yellow",
+          "green"
+        ],
+        [
+          "red"
+        ]
+      ],
+      "optimalMoves": 17,
+      "seed": 20313706
+    },
+    {
+      "id": 54,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "purple",
+          "purple",
+          "red",
+          "red",
+          "blue"
+        ],
+        [],
+        [
+          "yellow",
+          "red",
+          "green"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "blue"
+        ],
+        [
+          "blue",
+          "blue",
+          "orange",
+          "orange",
+          "orange"
+        ],
+        [
+          "purple",
+          "green",
+          "orange",
+          "orange",
+          "green"
+        ],
+        [
+          "red",
+          "red"
+        ],
+        [
+          "purple",
+          "purple",
+          "blue",
+          "green",
+          "green"
+        ]
+      ],
+      "optimalMoves": 14,
+      "seed": 20314705
+    },
+    {
+      "id": 55,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "green",
+          "green",
+          "green"
+        ],
+        [
+          "orange",
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "purple"
+        ],
+        [
+          "yellow",
+          "purple",
+          "purple",
+          "purple"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "purple",
+          "orange"
+        ],
+        [
+          "blue",
+          "red",
+          "red",
+          "red",
+          "green"
+        ],
+        [
+          "orange",
+          "orange",
+          "green",
+          "red"
+        ],
+        [
+          "yellow",
+          "blue",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 14,
+      "seed": 20315705
+    },
+    {
+      "id": 56,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "blue",
+          "blue",
+          "yellow",
+          "red",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "yellow"
+        ],
+        [
+          "red",
+          "yellow",
+          "orange",
+          "orange",
+          "orange"
+        ],
+        [
+          "green",
+          "purple",
+          "orange",
+          "purple"
+        ],
+        [
+          "blue",
+          "green",
+          "red"
+        ],
+        [
+          "purple",
+          "purple",
+          "purple",
+          "orange"
+        ],
+        [
+          "red",
+          "green",
+          "green",
+          "green"
+        ],
+        [
+          "blue",
+          "blue",
+          "red"
+        ]
+      ],
+      "optimalMoves": 16,
+      "seed": 20316705
+    },
+    {
+      "id": 57,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "green"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "red",
+          "yellow"
+        ],
+        [
+          "purple",
+          "red",
+          "yellow"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "green"
+        ],
+        [
+          "purple",
+          "yellow",
+          "blue",
+          "blue",
+          "yellow"
+        ],
+        [
+          "red",
+          "purple",
+          "purple",
+          "yellow",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "purple"
+        ],
+        [
+          "orange",
+          "orange",
+          "red"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20317705
+    },
+    {
+      "id": 58,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "yellow",
+          "orange"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "yellow",
+          "purple"
+        ],
+        [
+          "purple",
+          "purple",
+          "red",
+          "blue"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "orange"
+        ],
+        [
+          "blue",
+          "yellow",
+          "purple",
+          "purple",
+          "yellow"
+        ],
+        [
+          "red",
+          "green",
+          "green"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "red"
+        ],
+        [
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 14,
+      "seed": 20318705
+    },
+    {
+      "id": 59,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "orange",
+          "orange",
+          "blue"
+        ],
+        [
+          "green",
+          "green",
+          "purple",
+          "yellow"
+        ],
+        [
+          "orange",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "green",
+          "purple",
+          "yellow",
+          "purple",
+          "orange"
+        ],
+        [
+          "blue"
+        ],
+        [
+          "orange",
+          "green",
+          "purple"
+        ],
+        [
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "green",
+          "purple",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 17,
+      "seed": 20319705
+    },
+    {
+      "id": 60,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "orange",
+          "orange"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "red",
+          "red"
+        ],
+        [
+          "blue",
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "yellow",
+          "blue"
+        ],
+        [
+          "yellow",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        [
+          "purple",
+          "purple",
+          "purple"
+        ],
+        [
+          "red",
+          "purple",
+          "orange",
+          "red",
+          "red"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "purple",
+          "green",
+          "blue"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20320705
+    },
+    {
+      "id": 61,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red"
+        ],
+        [
+          "orange",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "red",
+          "blue",
+          "green",
+          "red"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "blue",
+          "yellow"
+        ],
+        [
+          "blue",
+          "purple",
+          "blue",
+          "green"
+        ],
+        [
+          "purple",
+          "orange"
+        ],
+        [
+          "purple",
+          "purple",
+          "red",
+          "red",
+          "purple"
+        ],
+        [
+          "yellow",
+          "orange",
+          "orange",
+          "orange",
+          "blue"
+        ]
+      ],
+      "optimalMoves": 17,
+      "seed": 20321705
+    },
+    {
+      "id": 62,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "red",
+          "green",
+          "red"
+        ],
+        [
+          "purple",
+          "purple"
+        ],
+        [
+          "green",
+          "orange",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "green",
+          "green",
+          "blue",
+          "purple"
+        ],
+        [
+          "orange",
+          "orange",
+          "blue",
+          "green"
+        ],
+        [
+          "purple",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "red",
+          "purple",
+          "yellow",
+          "orange",
+          "orange"
+        ],
+        [
+          "yellow",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20322705
+    },
+    {
+      "id": 63,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "red",
+          "red",
+          "blue"
+        ],
+        [
+          "orange",
+          "blue",
+          "green",
+          "orange"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "orange"
+        ],
+        [
+          "purple",
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "yellow"
+        ],
+        [
+          "blue",
+          "green"
+        ],
+        [
+          "blue",
+          "yellow",
+          "green",
+          "orange",
+          "red"
+        ],
+        [
+          "purple",
+          "purple",
+          "purple",
+          "green",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 17,
+      "seed": 20323705
+    },
+    {
+      "id": 64,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "orange",
+          "orange"
+        ],
+        [
+          "orange",
+          "orange"
+        ],
+        [
+          "yellow",
+          "orange",
+          "yellow",
+          "yellow",
+          "green"
+        ],
+        [
+          "blue",
+          "red",
+          "red",
+          "blue"
+        ],
+        [
+          "blue",
+          "purple",
+          "green",
+          "purple",
+          "green"
+        ],
+        [
+          "blue",
+          "blue",
+          "yellow",
+          "red"
+        ],
+        [
+          "green",
+          "green",
+          "purple",
+          "purple",
+          "yellow"
+        ],
+        [
+          "purple",
+          "red",
+          "red"
+        ]
+      ],
+      "optimalMoves": 18,
+      "seed": 20324705
+    },
+    {
+      "id": 65,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "blue",
+          "green",
+          "green",
+          "yellow",
+          "orange"
+        ],
+        [
+          "orange",
+          "yellow"
+        ],
+        [
+          "green",
+          "purple"
+        ],
+        [
+          "green",
+          "purple",
+          "blue",
+          "blue",
+          "purple"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "green"
+        ],
+        [
+          "yellow",
+          "purple",
+          "purple"
+        ],
+        [
+          "orange",
+          "orange",
+          "red",
+          "orange"
+        ],
+        [
+          "blue",
+          "blue",
+          "red",
+          "yellow",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 17,
+      "seed": 20325705
+    },
+    {
+      "id": 66,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "orange",
+          "orange",
+          "purple",
+          "blue"
+        ],
+        [
+          "orange",
+          "yellow",
+          "yellow",
+          "yellow",
+          "red"
+        ],
+        [
+          "red",
+          "red",
+          "purple"
+        ],
+        [
+          "green",
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "green",
+          "blue"
+        ],
+        [
+          "purple",
+          "purple",
+          "green"
+        ],
+        [
+          "green",
+          "blue",
+          "blue"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "red",
+          "red"
+        ]
+      ],
+      "optimalMoves": 16,
+      "seed": 20326705
+    },
+    {
+      "id": 67,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "orange",
+          "orange",
+          "yellow",
+          "purple",
+          "purple"
+        ],
+        [
+          "orange",
+          "red",
+          "red",
+          "blue",
+          "blue"
+        ],
+        [
+          "yellow",
+          "blue",
+          "blue",
+          "green"
+        ],
+        [
+          "purple",
+          "blue",
+          "orange"
+        ],
+        [
+          "orange",
+          "yellow",
+          "yellow",
+          "yellow",
+          "green"
+        ],
+        [
+          "green",
+          "green",
+          "purple"
+        ],
+        [
+          "green",
+          "red",
+          "red",
+          "red",
+          "purple"
+        ],
+        []
+      ],
+      "optimalMoves": 16,
+      "seed": 20327705
+    },
+    {
+      "id": 68,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "yellow",
+          "red",
+          "purple",
+          "purple",
+          "purple"
+        ],
+        [
+          "orange",
+          "orange",
+          "blue",
+          "red"
+        ],
+        [
+          "purple"
+        ],
+        [
+          "yellow",
+          "blue",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "orange"
+        ],
+        [
+          "purple",
+          "green",
+          "green",
+          "green",
+          "red"
+        ],
+        [
+          "green",
+          "red",
+          "red",
+          "orange"
+        ],
+        [
+          "orange",
+          "yellow",
+          "green"
+        ]
+      ],
+      "optimalMoves": 16,
+      "seed": 20328705
+    },
+    {
+      "id": 69,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "red"
+        ],
+        [
+          "green"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "yellow"
+        ],
+        [
+          "blue",
+          "purple",
+          "orange"
+        ],
+        [
+          "blue",
+          "blue",
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "blue",
+          "green",
+          "purple",
+          "purple"
+        ],
+        [
+          "blue",
+          "purple",
+          "purple",
+          "red"
+        ]
+      ],
+      "optimalMoves": 13,
+      "seed": 20329705
+    },
+    {
+      "id": 70,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "blue",
+          "blue",
+          "yellow"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "red",
+          "green"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "red",
+          "blue"
+        ],
+        [
+          "yellow",
+          "orange",
+          "orange",
+          "red"
+        ],
+        [
+          "purple"
+        ],
+        [
+          "purple",
+          "purple",
+          "purple",
+          "blue",
+          "red"
+        ],
+        [
+          "blue",
+          "purple",
+          "green",
+          "green",
+          "green"
+        ],
+        [
+          "green",
+          "red"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20330705
+    },
+    {
+      "id": 71,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "orange",
+          "orange",
+          "orange",
+          "orange"
+        ],
+        [
+          "yellow"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "green"
+        ],
+        [
+          "purple",
+          "red"
+        ],
+        [
+          "purple",
+          "purple",
+          "blue",
+          "blue"
+        ],
+        [
+          "blue",
+          "green",
+          "green",
+          "green",
+          "purple"
+        ],
+        [
+          "red",
+          "purple",
+          "blue",
+          "orange",
+          "blue"
+        ],
+        [
+          "green",
+          "yellow",
+          "red",
+          "red"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20331706
+    },
+    {
+      "id": 72,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "orange",
+          "yellow",
+          "blue",
+          "purple"
+        ],
+        [
+          "orange",
+          "orange"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "red",
+          "purple"
+        ],
+        [
+          "blue",
+          "blue",
+          "orange",
+          "blue",
+          "green"
+        ],
+        [
+          "green",
+          "purple",
+          "purple",
+          "green",
+          "red"
+        ],
+        [
+          "red",
+          "red",
+          "orange",
+          "blue"
+        ],
+        [
+          "purple",
+          "green",
+          "yellow",
+          "green"
+        ]
+      ],
+      "optimalMoves": 19,
+      "seed": 20332705
+    },
+    {
+      "id": 73,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "blue",
+          "blue",
+          "yellow",
+          "green"
+        ],
+        [
+          "orange"
+        ],
+        [
+          "yellow",
+          "green",
+          "orange",
+          "orange",
+          "orange"
+        ],
+        [
+          "green",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "red"
+        ],
+        [
+          "purple",
+          "green",
+          "red",
+          "green"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "purple",
+          "purple"
+        ],
+        [
+          "red",
+          "purple",
+          "orange",
+          "yellow",
+          "purple"
+        ]
+      ],
+      "optimalMoves": 17,
+      "seed": 20333705
+    },
+    {
+      "id": 74,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "yellow",
+          "orange",
+          "yellow"
+        ],
+        [
+          "orange",
+          "purple",
+          "blue",
+          "blue"
+        ],
+        [
+          "green",
+          "green",
+          "purple"
+        ],
+        [],
+        [
+          "blue",
+          "orange",
+          "red",
+          "red",
+          "yellow"
+        ],
+        [
+          "purple",
+          "purple",
+          "red",
+          "green",
+          "purple"
+        ],
+        [
+          "red",
+          "blue",
+          "green",
+          "green"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "orange",
+          "orange",
+          "blue"
+        ]
+      ],
+      "optimalMoves": 17,
+      "seed": 20334706
+    },
+    {
+      "id": 75,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "orange",
+          "blue"
+        ],
+        [
+          "green",
+          "orange",
+          "orange",
+          "green"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "red",
+          "yellow",
+          "blue"
+        ],
+        [
+          "orange",
+          "purple",
+          "purple",
+          "purple",
+          "yellow"
+        ],
+        [
+          "yellow"
+        ],
+        [
+          "purple",
+          "purple",
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "red",
+          "orange"
+        ],
+        [
+          "green",
+          "green",
+          "green"
+        ]
+      ],
+      "optimalMoves": 14,
+      "seed": 20335705
+    },
+    {
+      "id": 76,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "green",
+          "green",
+          "blue"
+        ],
+        [
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "orange",
+          "green",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "orange"
+        ],
+        [
+          "green",
+          "yellow",
+          "purple"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "yellow",
+          "purple"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "purple",
+          "purple"
+        ],
+        [
+          "yellow",
+          "red",
+          "yellow",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 16,
+      "seed": 20336705
+    },
+    {
+      "id": 77,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "yellow",
+          "blue",
+          "blue",
+          "green",
+          "green"
+        ],
+        [
+          "orange",
+          "blue"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "purple",
+          "blue"
+        ],
+        [
+          "green",
+          "red",
+          "red",
+          "orange"
+        ],
+        [
+          "red",
+          "orange",
+          "red",
+          "red"
+        ],
+        [
+          "purple",
+          "purple",
+          "green"
+        ],
+        [
+          "orange",
+          "purple",
+          "yellow",
+          "orange",
+          "green"
+        ],
+        [
+          "blue",
+          "yellow",
+          "purple"
+        ]
+      ],
+      "optimalMoves": 18,
+      "seed": 20337706
+    },
+    {
+      "id": 78,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "blue"
+        ],
+        [
+          "green",
+          "purple",
+          "purple"
+        ],
+        [
+          "yellow",
+          "orange",
+          "orange",
+          "blue",
+          "yellow"
+        ],
+        [
+          "green",
+          "green"
+        ],
+        [
+          "orange",
+          "green",
+          "red",
+          "red",
+          "green"
+        ],
+        [
+          "purple",
+          "purple",
+          "blue",
+          "red",
+          "yellow"
+        ],
+        [
+          "red",
+          "blue",
+          "blue",
+          "orange"
+        ],
+        [
+          "yellow",
+          "purple",
+          "orange",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 19,
+      "seed": 20338705
+    },
+    {
+      "id": 79,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "red",
+          "purple"
+        ],
+        [
+          "green",
+          "orange",
+          "orange"
+        ],
+        [
+          "blue",
+          "green",
+          "red",
+          "orange",
+          "purple"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "purple"
+        ],
+        [
+          "yellow",
+          "blue",
+          "blue",
+          "blue",
+          "red"
+        ],
+        [
+          "purple",
+          "purple"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "blue",
+          "orange",
+          "yellow",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20339706
+    },
+    {
+      "id": 80,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red"
+        ],
+        [
+          "green",
+          "green",
+          "yellow",
+          "green",
+          "green"
+        ],
+        [
+          "yellow",
+          "blue",
+          "blue",
+          "yellow"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "red"
+        ],
+        [
+          "blue",
+          "yellow",
+          "orange",
+          "orange"
+        ],
+        [
+          "red",
+          "red"
+        ],
+        [
+          "purple",
+          "purple",
+          "purple",
+          "green",
+          "purple"
+        ],
+        [
+          "purple",
+          "yellow",
+          "red",
+          "blue",
+          "blue"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20340706
+    },
+    {
+      "id": 81,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "red"
+        ],
+        [
+          "orange",
+          "green",
+          "green",
+          "green"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "green",
+          "red"
+        ],
+        [
+          "purple",
+          "red",
+          "blue"
+        ],
+        [
+          "purple",
+          "purple",
+          "purple"
+        ],
+        [
+          "blue",
+          "blue",
+          "purple",
+          "red"
+        ],
+        [
+          "yellow",
+          "red",
+          "blue"
+        ],
+        [
+          "green",
+          "blue",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20341706
+    },
+    {
+      "id": 82,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "purple",
+          "purple",
+          "orange"
+        ],
+        [
+          "orange",
+          "orange",
+          "blue",
+          "blue",
+          "red"
+        ],
+        [
+          "yellow",
+          "blue",
+          "green"
+        ],
+        [
+          "green",
+          "green",
+          "yellow"
+        ],
+        [
+          "purple",
+          "orange"
+        ],
+        [
+          "yellow",
+          "green",
+          "green",
+          "red",
+          "orange"
+        ],
+        [
+          "blue",
+          "yellow",
+          "purple",
+          "yellow"
+        ],
+        [
+          "purple",
+          "blue",
+          "red"
+        ]
+      ],
+      "optimalMoves": 18,
+      "seed": 20342705
+    },
+    {
+      "id": 83,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "purple",
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "yellow"
+        ],
+        [
+          "purple",
+          "green"
+        ],
+        [
+          "green",
+          "orange",
+          "purple",
+          "red"
+        ],
+        [
+          "blue"
+        ],
+        [
+          "purple",
+          "purple",
+          "green",
+          "red",
+          "red"
+        ],
+        [
+          "red",
+          "red",
+          "blue",
+          "green",
+          "blue"
+        ],
+        [
+          "blue",
+          "green",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 16,
+      "seed": 20343707
+    },
+    {
+      "id": 84,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "red",
+          "purple"
+        ],
+        [
+          "orange",
+          "orange",
+          "red"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "blue",
+          "purple",
+          "orange"
+        ],
+        [
+          "blue",
+          "orange"
+        ],
+        [
+          "blue",
+          "yellow",
+          "yellow",
+          "yellow",
+          "purple"
+        ],
+        [
+          "orange",
+          "green",
+          "red",
+          "green",
+          "green"
+        ],
+        [
+          "purple",
+          "purple",
+          "green",
+          "green"
+        ],
+        [
+          "blue",
+          "blue"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20344705
+    },
+    {
+      "id": 85,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "yellow",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "red",
+          "red",
+          "yellow",
+          "orange",
+          "green"
+        ],
+        [
+          "green"
+        ],
+        [
+          "yellow",
+          "blue",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "purple",
+          "orange",
+          "purple",
+          "purple",
+          "purple"
+        ],
+        [
+          "orange",
+          "orange",
+          "red",
+          "red",
+          "green"
+        ],
+        [
+          "green"
+        ],
+        [
+          "purple",
+          "red",
+          "blue",
+          "green",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 17,
+      "seed": 20345706
+    },
+    {
+      "id": 86,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "purple",
+          "green",
+          "red",
+          "red"
+        ],
+        [
+          "green",
+          "green",
+          "blue"
+        ],
+        [
+          "purple",
+          "purple",
+          "blue",
+          "orange",
+          "orange"
+        ],
+        [
+          "green",
+          "purple",
+          "blue"
+        ],
+        [
+          "orange",
+          "green",
+          "orange",
+          "blue"
+        ],
+        [
+          "purple"
+        ],
+        [
+          "red",
+          "red",
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "red",
+          "yellow",
+          "yellow",
+          "blue",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 19,
+      "seed": 20346708
+    },
+    {
+      "id": 87,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "purple",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "orange",
+          "yellow",
+          "orange",
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "purple",
+          "red"
+        ],
+        [
+          "purple",
+          "blue"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "yellow",
+          "blue"
+        ],
+        [
+          "green"
+        ],
+        [
+          "purple",
+          "red",
+          "red",
+          "yellow",
+          "purple"
+        ],
+        [
+          "blue",
+          "blue",
+          "green"
+        ]
+      ],
+      "optimalMoves": 17,
+      "seed": 20347708
+    },
+    {
+      "id": 88,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "orange",
+          "green",
+          "green",
+          "purple"
+        ],
+        [
+          "orange",
+          "red",
+          "red"
+        ],
+        [
+          "yellow"
+        ],
+        [
+          "green",
+          "purple"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "blue"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "orange",
+          "orange"
+        ],
+        [
+          "red",
+          "red",
+          "orange",
+          "blue"
+        ],
+        [
+          "purple",
+          "green",
+          "green",
+          "purple",
+          "purple"
+        ]
+      ],
+      "optimalMoves": 14,
+      "seed": 20348705
+    },
+    {
+      "id": 89,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "yellow",
+          "green",
+          "blue",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "red"
+        ],
+        [
+          "green",
+          "green",
+          "yellow"
+        ],
+        [
+          "blue",
+          "yellow"
+        ],
+        [
+          "purple",
+          "purple",
+          "yellow",
+          "green",
+          "red"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "purple"
+        ],
+        [
+          "purple",
+          "orange",
+          "orange",
+          "yellow"
+        ]
+      ],
+      "optimalMoves": 16,
+      "seed": 20349705
+    },
+    {
+      "id": 90,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "green",
+          "orange",
+          "blue"
+        ],
+        [
+          "purple",
+          "purple",
+          "purple",
+          "purple",
+          "purple"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "blue"
+        ],
+        [
+          "green",
+          "green",
+          "red",
+          "red"
+        ],
+        [
+          "blue",
+          "yellow"
+        ],
+        [
+          "orange",
+          "green",
+          "orange",
+          "blue",
+          "yellow"
+        ],
+        [
+          "green",
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "yellow",
+          "blue",
+          "orange",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20350706
+    },
+    {
+      "id": 91,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "orange",
+          "orange",
+          "blue",
+          "blue",
+          "purple"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "green"
+        ],
+        [
+          "yellow",
+          "blue",
+          "orange"
+        ],
+        [
+          "green"
+        ],
+        [
+          "yellow",
+          "green"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "red",
+          "purple",
+          "yellow"
+        ],
+        [
+          "purple",
+          "purple",
+          "green",
+          "green",
+          "blue"
+        ],
+        [
+          "orange",
+          "purple",
+          "blue",
+          "red",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 18,
+      "seed": 20351706
+    },
+    {
+      "id": 92,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "green"
+        ],
+        [
+          "orange",
+          "purple",
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "red",
+          "yellow",
+          "blue",
+          "blue"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "green",
+          "green",
+          "blue",
+          "yellow"
+        ],
+        [
+          "purple",
+          "purple",
+          "green",
+          "orange"
+        ],
+        [
+          "purple",
+          "yellow",
+          "orange",
+          "orange"
+        ],
+        [
+          "yellow",
+          "blue",
+          "yellow",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 17,
+      "seed": 20352705
+    },
+    {
+      "id": 93,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "yellow",
+          "purple"
+        ],
+        [
+          "blue",
+          "purple",
+          "purple",
+          "blue",
+          "orange"
+        ],
+        [
+          "green",
+          "green",
+          "red"
+        ],
+        [
+          "green",
+          "purple",
+          "purple",
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "blue",
+          "red"
+        ],
+        [
+          "blue",
+          "yellow"
+        ],
+        [
+          "red",
+          "red",
+          "green",
+          "green",
+          "orange"
+        ]
+      ],
+      "optimalMoves": 16,
+      "seed": 20353705
+    },
+    {
+      "id": 94,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "orange",
+          "blue",
+          "blue"
+        ],
+        [
+          "blue",
+          "purple",
+          "purple",
+          "red"
+        ],
+        [
+          "yellow",
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "green",
+          "green",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "blue",
+          "blue",
+          "green",
+          "purple",
+          "yellow"
+        ],
+        [
+          "purple",
+          "orange",
+          "purple"
+        ],
+        [
+          "orange",
+          "orange",
+          "yellow",
+          "red",
+          "orange"
+        ],
+        [
+          "green",
+          "green"
+        ]
+      ],
+      "optimalMoves": 16,
+      "seed": 20354705
+    },
+    {
+      "id": 95,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "yellow",
+          "purple",
+          "purple",
+          "purple"
+        ],
+        [
+          "green",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "blue"
+        ],
+        [
+          "yellow",
+          "orange"
+        ],
+        [
+          "yellow",
+          "purple",
+          "green"
+        ],
+        [
+          "purple",
+          "orange",
+          "yellow",
+          "yellow",
+          "green"
+        ],
+        [
+          "orange",
+          "red",
+          "red"
+        ],
+        [
+          "orange",
+          "orange",
+          "blue",
+          "green",
+          "green"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20355706
+    },
+    {
+      "id": 96,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "orange",
+          "red",
+          "blue"
+        ],
+        [
+          "orange",
+          "yellow",
+          "purple",
+          "blue"
+        ],
+        [
+          "blue",
+          "yellow",
+          "orange",
+          "purple"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "green",
+          "blue"
+        ],
+        [
+          "purple",
+          "purple",
+          "yellow",
+          "purple"
+        ],
+        [],
+        [
+          "yellow",
+          "orange",
+          "orange",
+          "yellow",
+          "green"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "red",
+          "blue"
+        ]
+      ],
+      "optimalMoves": 16,
+      "seed": 20356705
+    },
+    {
+      "id": 97,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "green",
+          "green",
+          "yellow",
+          "blue",
+          "orange"
+        ],
+        [
+          "orange",
+          "orange",
+          "green",
+          "purple",
+          "red"
+        ],
+        [
+          "green",
+          "purple",
+          "yellow"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "orange"
+        ],
+        [
+          "purple"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "purple",
+          "orange"
+        ],
+        [
+          "purple"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20357705
+    },
+    {
+      "id": 98,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "red",
+          "yellow"
+        ],
+        [
+          "green",
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "purple",
+          "orange",
+          "red",
+          "blue",
+          "purple"
+        ],
+        [
+          "green",
+          "yellow",
+          "blue",
+          "orange",
+          "orange"
+        ],
+        [
+          "blue",
+          "blue",
+          "purple"
+        ],
+        [
+          "purple",
+          "red",
+          "blue",
+          "purple",
+          "green"
+        ],
+        [
+          "orange"
+        ],
+        [
+          "orange",
+          "green",
+          "green"
+        ]
+      ],
+      "optimalMoves": 18,
+      "seed": 20358705
+    },
+    {
+      "id": 99,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "orange",
+          "orange",
+          "yellow"
+        ],
+        [
+          "blue",
+          "orange",
+          "orange",
+          "blue",
+          "blue"
+        ],
+        [
+          "green",
+          "green",
+          "green"
+        ],
+        [
+          "yellow",
+          "orange",
+          "purple"
+        ],
+        [
+          "purple",
+          "blue",
+          "yellow"
+        ],
+        [
+          "purple",
+          "purple",
+          "purple"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "yellow",
+          "green"
+        ],
+        [
+          "blue",
+          "yellow",
+          "green"
+        ]
+      ],
+      "optimalMoves": 15,
+      "seed": 20359706
+    },
+    {
+      "id": 100,
+      "screwCapacity": 5,
+      "screws": [
+        [
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "orange",
+          "orange",
+          "blue",
+          "pink",
+          "purple"
+        ],
+        [
+          "purple",
+          "purple",
+          "yellow",
+          "blue"
+        ],
+        [
+          "green",
+          "green",
+          "green",
+          "purple",
+          "orange"
+        ],
+        [],
+        [
+          "yellow",
+          "pink",
+          "pink",
+          "orange",
+          "orange"
+        ],
+        [
+          "pink",
+          "blue",
+          "green",
+          "green"
+        ],
+        [
+          "blue",
+          "blue",
+          "pink",
+          "red",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "red",
+          "purple"
+        ]
+      ],
+      "optimalMoves": 18,
+      "seed": 20360712
+    }
+  ]
+}
