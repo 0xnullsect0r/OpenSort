@@ -1,0 +1,359 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #14161d;
+  color: #eef0f4;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  appearance: none;
+}
+
+.screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: env(safe-area-inset-top, 0) env(safe-area-inset-right, 0)
+    env(safe-area-inset-bottom, 0) env(safe-area-inset-left, 0);
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+}
+
+.topbar h1 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.icon-button {
+  background: #262a35;
+  border: none;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.icon-button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.primary-button {
+  background: linear-gradient(180deg, #3fa9f5, #2f8ad6);
+  border: none;
+  border-radius: 14px;
+  padding: 14px 28px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: white;
+}
+
+.secondary-button {
+  background: #262a35;
+  border: none;
+  border-radius: 14px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: #eef0f4;
+}
+
+/* --- Home screen --- */
+.home-screen {
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.home-subtitle {
+  color: #9aa3b2;
+  margin-bottom: 20px;
+}
+
+.home-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: min(280px, 80vw);
+}
+
+/* --- Level select --- */
+.level-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+  gap: 10px;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.level-tile {
+  aspect-ratio: 1;
+  border-radius: 14px;
+  border: none;
+  background: #262a35;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: #eef0f4;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.level-tile:disabled {
+  opacity: 0.35;
+}
+
+.level-tile .stars {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+
+/* --- Game screen --- */
+.game-screen {
+  align-items: stretch;
+}
+
+.game-hud {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  color: #9aa3b2;
+  font-size: 0.9rem;
+}
+
+.board-container {
+  flex: 1;
+  display: flex;
+}
+
+.board {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(var(--board-cols, 4), 1fr);
+  gap: 14px;
+  align-content: center;
+  justify-items: center;
+  padding: 16px 20px 8px;
+}
+
+.board.shake-invalid {
+  animation: board-shake 220ms ease-in-out;
+}
+
+@keyframes board-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-6px);
+  }
+  75% {
+    transform: translateX(6px);
+  }
+}
+
+.screw {
+  position: relative;
+  width: 56px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  transition: background-color 120ms ease, transform 120ms ease;
+}
+
+.screw.selected {
+  background: rgba(63, 169, 245, 0.16);
+  transform: translateY(-4px);
+}
+
+.screw.solved {
+  opacity: 0.85;
+}
+
+.screw-rod {
+  position: absolute;
+  bottom: 6px;
+  width: 8px;
+  height: calc(var(--capacity, 5) * 26px + 10px);
+  background: linear-gradient(90deg, #4b5162, #6d7488, #4b5162);
+  border-radius: 4px;
+  z-index: 0;
+}
+
+.screw-slots {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 4px;
+}
+
+.nut {
+  width: 48px;
+  height: 22px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.55);
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.35), inset 0 -2px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 200ms ease;
+}
+
+.nut .glyph {
+  opacity: 0;
+}
+
+.colorblind-mode .nut .glyph {
+  opacity: 0.75;
+}
+
+.nut.moving-out {
+  transform: translateY(-14px) scale(0.9) rotate(-8deg);
+  opacity: 0;
+}
+
+.nut.moving-in {
+  animation: nut-drop 220ms ease-out;
+}
+
+@keyframes nut-drop {
+  from {
+    transform: translateY(-18px) rotate(10deg);
+    opacity: 0.4;
+  }
+  to {
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+  }
+}
+
+.screw-cap {
+  position: absolute;
+  top: -6px;
+  font-size: 0.9rem;
+}
+
+.game-footer {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 14px 16px calc(16px + env(safe-area-inset-bottom, 0));
+}
+
+.win-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 12, 16, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.win-card {
+  background: #1e222b;
+  border-radius: 20px;
+  padding: 32px 28px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  min-width: 240px;
+}
+
+.win-stars {
+  font-size: 2.2rem;
+  letter-spacing: 6px;
+}
+
+/* --- Settings --- */
+.settings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 16px;
+}
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 4px;
+  border-bottom: 1px solid #262a35;
+}
+
+.toggle {
+  position: relative;
+  width: 46px;
+  height: 26px;
+  border-radius: 13px;
+  background: #3a3f4d;
+  border: none;
+  transition: background-color 150ms ease;
+}
+
+.toggle::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  transition: transform 150ms ease;
+}
+
+.toggle.on {
+  background: #3fa9f5;
+}
+
+.toggle.on::after {
+  transform: translateX(20px);
+}
