@@ -2,7 +2,7 @@
   "name": "opensort",
   "version": "0.1.0",
   "description": "A nuts-and-bolts color sorting puzzle game, playable in the browser.",
-  "license": "GPL-3.0-only",
+  "license": "AGPL-3.0-or-later",
   "type": "module",
   "scripts": {
     "dev": "vite",
